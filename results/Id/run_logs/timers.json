@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1643570413",
+        "python_version": "3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\carlo\\Desktop\\Parking-Car\\venv\\Scripts\\mlagents-learn --run-id=Id",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.1+cu113",
+        "numpy_version": "1.22.0",
+        "end_time_seconds": "1643570449"
+    },
+    "total": 35.590269,
+    "count": 1,
+    "self": 0.013058699999994872,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0929656999999997,
+            "count": 1,
+            "self": 0.0929656999999997
+        },
+        "TrainerController.start_learning": {
+            "total": 35.484244600000004,
+            "count": 1,
+            "self": 0.0011262000000087369,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 35.4830769,
+                    "count": 1,
+                    "self": 35.4830769
+                },
+                "trainer_threads": {
+                    "total": 4.39999999457541e-06,
+                    "count": 1,
+                    "self": 4.39999999457541e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 3.7100000000123146e-05,
+                    "count": 1,
+                    "self": 3.7100000000123146e-05
+                }
+            }
+        }
+    }
+}

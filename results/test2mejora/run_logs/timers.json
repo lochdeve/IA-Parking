@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1641675125",
+        "python_version": "3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\carlo\\Desktop\\Parking-Car\\venv\\Scripts\\mlagents-learn config/IAParking.yaml --run-id=test2mejora",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.1+cu113",
+        "numpy_version": "1.22.0",
+        "end_time_seconds": "1641675155"
+    },
+    "total": 30.117201299999998,
+    "count": 1,
+    "self": 0.008650599999999287,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08777940000000006,
+            "count": 1,
+            "self": 0.08777940000000006
+        },
+        "TrainerController.start_learning": {
+            "total": 30.0207713,
+            "count": 1,
+            "self": 0.00039759999999944284,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 30.0203636,
+                    "count": 1,
+                    "self": 30.0203636
+                },
+                "trainer_threads": {
+                    "total": 8.999999998593466e-07,
+                    "count": 1,
+                    "self": 8.999999998593466e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.200000000930686e-06,
+                    "count": 1,
+                    "self": 9.200000000930686e-06
+                }
+            }
+        }
+    }
+}
