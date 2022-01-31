@@ -1714,7 +1714,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &8921118523404778052
 MonoBehaviour:
@@ -1731,9 +1731,13 @@ MonoBehaviour:
   m_BrainParameters:
     VectorObservationSize: 6
     NumStackedVectorObservations: 1
+    m_ActionSpec:
+      m_NumContinuousActions: 2
+      BranchSizes: 
     VectorActionSize: 02000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
+    hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: a06e04a60315d214585002459177c5f7, type: 3}
   m_InferenceDevice: 1
   m_BehaviorType: 0
@@ -1763,6 +1767,7 @@ MonoBehaviour:
   failMaterial: {fileID: 2100000, guid: b98c9d36fc649f94084403b978d75ae0, type: 2}
   defaultMaterial: {fileID: 2100000, guid: 36515eef434e5459b8aee9661d2254bb, type: 2}
   floorMeshRenderer: {fileID: 8921118523163764812}
+  resultText: {fileID: 0}
 --- !u!114 &8921118523404778058
 MonoBehaviour:
   m_ObjectHideFlags: 0

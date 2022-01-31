@@ -1,0 +1,29 @@
+{
+    "ParkingIA": {
+        "checkpoints": [
+            {
+                "steps": 100008,
+                "file_path": "results\\test16\\ParkingIA\\ParkingIA-100008.onnx",
+                "reward": 0.8611111111111112,
+                "creation_time": 1643644955.3103273,
+                "auxillary_file_paths": [
+                    "results\\test16\\ParkingIA\\ParkingIA-100008.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 100008,
+            "file_path": "results\\test16\\ParkingIA.onnx",
+            "reward": 0.8611111111111112,
+            "creation_time": 1643644955.3103273,
+            "auxillary_file_paths": [
+                "results\\test16\\ParkingIA\\ParkingIA-100008.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.10.1+cu113"
+    }
+}

@@ -18,6 +18,7 @@ public class ParkingAgent : Agent {
 
     public override void OnEpisodeBegin() {
         transform.localPosition =  new Vector3(Random.Range(-8f,+7f),-1.225409f,1.93f);
+        //transform.localPosition =  Vector3.zero;
       //  transform.localPosition =  new Vector3(Random.Range(-6.8f,+6.8f),-0.6114092f,Random.Range(-4.6f,+3.52f));
         targetTransform.localPosition =  new Vector3(Random.Range(-8f,+7f),-1.225409f,-11.967f);
     }
